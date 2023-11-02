@@ -1,7 +1,7 @@
 {
-    "articulos": [
+    "productos": [
         {
-            "codigo": "TORNO001",
+            "codigo": "P-TOR-001",
             "nombre": "Torno Pichichus",
             "descripcion": "Es un torno no un tornillo",
             "precio_compra": "150.00",
@@ -11,15 +11,15 @@
             "dimensiones": "string",
             "peso": "string",
             "material": "string",
-            "color": "rojo river",
-            "paisOrigen": "ARGENTINA",
+            "color": "Rojo river",
+            "paisOrigen": "Argentina",
             "marca": {
-                "codigo": "VER001",
+                "codigo": "M-VER-001",
                 "nombre": "Vertex"
             },
             "categorias": [
                 {
-                    "codigo": "FER01",
+                    "codigo": "C-FER-001",
                     "nombre": "Ferretería"
                 }
             ],
