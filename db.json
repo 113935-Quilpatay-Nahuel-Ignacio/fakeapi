@@ -240,5 +240,54 @@
             ],
             "activo": true
         }
+    ],
+    "ofertas": [
+        {
+            "codigo": "O-TAR-001",
+            "nombre": "TARUGOS 8CM",
+            "descripcion": "string",
+            "precio_oferta": 45,
+            "puntos": 0.275,
+            "activo": true,
+            "producto": {
+                "codigo": "P-TAR-005",
+                "nombre": "TARUGOS",
+                "descripcion": "TARUGOS DE MADERA",
+                "precio_compra": "25.00",
+                "precio_mayorista": "35.00",
+                "precio_minorista": "40.00",
+                "imageURL": "",
+                "dimensiones": "8CM",
+                "peso": "50G",
+                "material": "MADERA",
+                "color": "MARRON",
+                "paisOrigen": "BRASIL",
+                "activo": true
+            }
+        }
+    ],
+    "descuentos": [
+        {
+            "codigo": "D-TAR-001",
+            "nombre": "TARUGOS DESC",
+            "descripcion": "EEEEE",
+            "precio_min": 30,
+            "activo": true,
+            "producto": {
+                "codigo": "P-TAR-005",
+                "nombre": "TARUGOS",
+                "descripcion": "TARUGOS DE MADERA",
+                "precio_compra": "25.00",
+                "precio_mayorista": "35.00",
+                "precio_minorista": "40.00",
+                "imageURL": "",
+                "dimensiones": "8CM",
+                "peso": "50G",
+                "material": "MADERA",
+                "color": "MARRON",
+                "paisOrigen": "BRASIL",
+                "activo": true
+            }
+        }
     ]
 }
