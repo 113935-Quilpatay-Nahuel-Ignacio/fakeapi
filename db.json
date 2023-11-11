@@ -95,54 +95,6 @@
                 }
             ],
             "activo": true
-        },
-        {
-            "codigo": "P-LLA-003",
-            "nombre": "LLAVE INGLESA",
-            "descripcion": "LLAVE AJUSTABLE",
-            "precio_compra": "80.00",
-            "precio_mayorista": "110.00",
-            "precio_minorista": "120.00",
-            "imageURL": "",
-            "dimensiones": "15CM",
-            "peso": "500G",
-            "material": "ACERO",
-            "color": "PLATA",
-            "paisOrigen": "ESPAÑA",
-            "marca": {
-                "codigo": "M-ACR-002",
-                "nombre": "acero"
-            },
-            "categorias": [
-                {
-                    "codigo": "C-HER-001",
-                    "nombre": "HERRAMIENTAS"
-                },
-                {
-                    "codigo": "C-MAN-001",
-                    "nombre": "MANUALES"
-                }
-            ],
-            "ofertas": [
-                {
-                    "codigo": "O-LLA-001",
-                    "nombre": "LLAVE 15CM",
-                    "descripcion": "string",
-                    "precio_oferta": 130,
-                    "puntos": 0.88,
-                    "activo": true
-                }
-            ],
-            "descuentos": [
-                {
-                    "codigo": "D-LLA-001",
-                    "nombre": "LLAVE DESC",
-                    "descripcion": "CCCCC",
-                    "precio_min": 100,
-                    "activo": true
-                }
-            ],
-            "activo": true
         }
     ],
     "ofertas": [
@@ -191,29 +143,6 @@
                 "paisOrigen": "MEXICO",
                 "activo": true
             }
-        },
-        {
-            "codigo": "O-LLA-001",
-            "nombre": "LLAVE 15CM",
-            "descripcion": "string",
-            "precio_oferta": 130,
-            "puntos": 0.88,
-            "activo": true,
-            "producto": {
-                "codigo": "P-LLA-003",
-                "nombre": "LLAVE INGLESA",
-                "descripcion": "LLAVE AJUSTABLE",
-                "precio_compra": "80.00",
-                "precio_mayorista": "110.00",
-                "precio_minorista": "120.00",
-                "imageURL": "",
-                "dimensiones": "15CM",
-                "peso": "500G",
-                "material": "ACERO",
-                "color": "PLATA",
-                "paisOrigen": "ESPAÑA",
-                "activo": true
-            }
         }
     ],
     "descuentos": [
@@ -258,28 +187,6 @@
                 "material": "PVC",
                 "color": "BLANCO",
                 "paisOrigen": "MEXICO",
-                "activo": true
-            }
-        },
-        {
-            "codigo": "D-LLA-001",
-            "nombre": "LLAVE DESC",
-            "descripcion": "CCCCC",
-            "precio_min": 100,
-            "activo": true,
-            "producto": {
-                "codigo": "P-LLA-003",
-                "nombre": "LLAVE INGLESA",
-                "descripcion": "LLAVE AJUSTABLE",
-                "precio_compra": "80.00",
-                "precio_mayorista": "110.00",
-                "precio_minorista": "120.00",
-                "imageURL": "",
-                "dimensiones": "15CM",
-                "peso": "500G",
-                "material": "ACERO",
-                "color": "PLATA",
-                "paisOrigen": "ESPAÑA",
                 "activo": true
             }
         }
