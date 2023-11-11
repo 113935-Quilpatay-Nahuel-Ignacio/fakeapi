@@ -1,46 +1,240 @@
 {
     "productos": [
         {
-            "codigo": "P-TOR-001",
-            "nombre": "Torno Pichichus",
-            "descripcion": "Es un torno no un tornillo",
-            "precio_compra": "150.00",
-            "precio_mayorista": "170.00",
-            "precio_minorista": "200.00",
-            "imageURL": "https://imagen-url.com",
-            "dimensiones": "string",
-            "peso": "string",
-            "material": "string",
-            "color": "Rojo river",
-            "paisOrigen": "Argentina",
+            "codigo": "P-CLA-001",
+            "nombre": "CLAVOS",
+            "descripcion": "CLAVOS DE ACERO",
+            "precio_compra": "100.00",
+            "precio_mayorista": "130.00",
+            "precio_minorista": "140.00",
+            "imageURL": "",
+            "dimensiones": "10CM",
+            "peso": "1G",
+            "material": "ACERO",
+            "color": "METAL",
+            "paisOrigen": "ARGENTINA",
             "marca": {
-                "codigo": "M-VER-001",
-                "nombre": "Vertex"
+                "codigo": "M-STE-001",
+                "nombre": "steel"
             },
             "categorias": [
                 {
+                    "codigo": "C-CLA-001",
+                    "nombre": "CLAVOOS"
+                },
+                {
                     "codigo": "C-FER-001",
-                    "nombre": "Ferretería"
+                    "nombre": "FERRETERIA"
                 }
             ],
             "ofertas": [
                 {
-                    "codigo": "string",
-                    "nombre": "string",
+                    "codigo": "O-CLA-001",
+                    "nombre": "CLAVOS 10",
                     "descripcion": "string",
-                    "precio_oferta": 0,
-                    "activo": true,
-                    "codigo_producto": "string"
+                    "precio_oferta": 150,
+                    "puntos": 1.1,
+                    "activo": true
                 }
             ],
             "descuentos": [
                 {
-                    "codigo": "string",
-                    "nombre": "string",
+                    "codigo": "D-CLA-001",
+                    "nombre": "CLAVOS DESC",
+                    "descripcion": "AAAAA",
+                    "precio_min": 105,
+                    "activo": true
+                }
+            ],
+            "activo": true
+        },
+        {
+            "codigo": "P-TUB-002",
+            "nombre": "TUBERIA",
+            "descripcion": "TUBERIA DE PVC",
+            "precio_compra": "50.00",
+            "precio_mayorista": "70.00",
+            "precio_minorista": "80.00",
+            "imageURL": "",
+            "dimensiones": "5M",
+            "peso": "2KG",
+            "material": "PVC",
+            "color": "BLANCO",
+            "paisOrigen": "MEXICO",
+            "marca": {
+                "codigo": "M-PVC-001",
+                "nombre": "plastic"
+            },
+            "categorias": [
+                {
+                    "codigo": "C-TUB-001",
+                    "nombre": "TUBERIAS"
+                },
+                {
+                    "codigo": "C-CON-001",
+                    "nombre": "CONSTRUCCION"
+                }
+            ],
+            "ofertas": [
+                {
+                    "codigo": "O-TUB-001",
+                    "nombre": "TUBERIA 5M",
                     "descripcion": "string",
-                    "precio_min": 0,
-                    "precio_top": 0,
-                    "codigo_producto": "string",
+                    "precio_oferta": 90,
+                    "puntos": 0.55,
+                    "activo": true
+                }
+            ],
+            "descuentos": [
+                {
+                    "codigo": "D-TUB-001",
+                    "nombre": "TUBERIA DESC",
+                    "descripcion": "BBBBB",
+                    "precio_min": 65,
+                    "activo": true
+                }
+            ],
+            "activo": true
+        },
+        {
+            "codigo": "P-LLA-003",
+            "nombre": "LLAVE INGLESA",
+            "descripcion": "LLAVE AJUSTABLE",
+            "precio_compra": "80.00",
+            "precio_mayorista": "110.00",
+            "precio_minorista": "120.00",
+            "imageURL": "",
+            "dimensiones": "15CM",
+            "peso": "500G",
+            "material": "ACERO",
+            "color": "PLATA",
+            "paisOrigen": "ESPAÑA",
+            "marca": {
+                "codigo": "M-ACR-002",
+                "nombre": "acero"
+            },
+            "categorias": [
+                {
+                    "codigo": "C-HER-001",
+                    "nombre": "HERRAMIENTAS"
+                },
+                {
+                    "codigo": "C-MAN-001",
+                    "nombre": "MANUALES"
+                }
+            ],
+            "ofertas": [
+                {
+                    "codigo": "O-LLA-001",
+                    "nombre": "LLAVE 15CM",
+                    "descripcion": "string",
+                    "precio_oferta": 130,
+                    "puntos": 0.88,
+                    "activo": true
+                }
+            ],
+            "descuentos": [
+                {
+                    "codigo": "D-LLA-001",
+                    "nombre": "LLAVE DESC",
+                    "descripcion": "CCCCC",
+                    "precio_min": 100,
+                    "activo": true
+                }
+            ],
+            "activo": true
+        },
+        {
+            "codigo": "P-PIE-004",
+            "nombre": "PIEDRA",
+            "descripcion": "PIEDRA DE GRANITO",
+            "precio_compra": "120.00",
+            "precio_mayorista": "150.00",
+            "precio_minorista": "160.00",
+            "imageURL": "",
+            "dimensiones": "20CM",
+            "peso": "2KG",
+            "material": "GRANITO",
+            "color": "GRIS",
+            "paisOrigen": "ITALIA",
+            "marca": {
+                "codigo": "M-GRA-001",
+                "nombre": "granite"
+            },
+            "categorias": [
+                {
+                    "codigo": "C-CON-002",
+                    "nombre": "CONSTRUCCION"
+                },
+                {
+                    "codigo": "C-DEC-001",
+                    "nombre": "DECORACION"
+                }
+            ],
+            "ofertas": [
+                {
+                    "codigo": "O-PIE-001",
+                    "nombre": "PIEDRA 20CM",
+                    "descripcion": "string",
+                    "precio_oferta": 170,
+                    "puntos": 1.32,
+                    "activo": true
+                }
+            ],
+            "descuentos": [
+                {
+                    "codigo": "D-PIE-001",
+                    "nombre": "PIEDRA DESC",
+                    "descripcion": "DDDDD",
+                    "precio_min": 140,
+                    "activo": true
+                }
+            ],
+            "activo": true
+        },
+        {
+            "codigo": "P-TAR-005",
+            "nombre": "TARUGOS",
+            "descripcion": "TARUGOS DE MADERA",
+            "precio_compra": "25.00",
+            "precio_mayorista": "35.00",
+            "precio_minorista": "40.00",
+            "imageURL": "",
+            "dimensiones": "8CM",
+            "peso": "50G",
+            "material": "MADERA",
+            "color": "MARRON",
+            "paisOrigen": "BRASIL",
+            "marca": {
+                "codigo": "M-MAD-001",
+                "nombre": "wood"
+            },
+            "categorias": [
+                {
+                    "codigo": "C-MAD-001",
+                    "nombre": "MADERA"
+                },
+                {
+                    "codigo": "C-FER-002",
+                    "nombre": "FERRETERIA"
+                }
+            ],
+            "ofertas": [
+                {
+                    "codigo": "O-TAR-001",
+                    "nombre": "TARUGOS 8CM",
+                    "descripcion": "string",
+                    "precio_oferta": 45,
+                    "puntos": 0.275,
+                    "activo": true
+                }
+            ],
+            "descuentos": [
+                {
+                    "codigo": "D-TAR-001",
+                    "nombre": "TARUGOS DESC",
+                    "descripcion": "EEEEE",
+                    "precio_min": 30,
                     "activo": true
                 }
             ],
