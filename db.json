@@ -243,6 +243,98 @@
     ],
     "ofertas": [
         {
+            "codigo": "O-CLA-001",
+            "nombre": "CLAVOS 10",
+            "descripcion": "string",
+            "precio_oferta": 150,
+            "puntos": 1.1,
+            "activo": true,
+            "producto": {
+                "codigo": "P-CLA-001",
+                "nombre": "CLAVOS",
+                "descripcion": "CLAVOS DE ACERO",
+                "precio_compra": "100.00",
+                "precio_mayorista": "130.00",
+                "precio_minorista": "140.00",
+                "imageURL": "",
+                "dimensiones": "10CM",
+                "peso": "1G",
+                "material": "ACERO",
+                "color": "METAL",
+                "paisOrigen": "ARGENTINA",
+                "activo": true
+            }
+        },
+        {
+            "codigo": "O-TUB-001",
+            "nombre": "TUBERIA 5M",
+            "descripcion": "string",
+            "precio_oferta": 90,
+            "puntos": 0.55,
+            "activo": true,
+            "producto": {
+                "codigo": "P-TUB-002",
+                "nombre": "TUBERIA",
+                "descripcion": "TUBERIA DE PVC",
+                "precio_compra": "50.00",
+                "precio_mayorista": "70.00",
+                "precio_minorista": "80.00",
+                "imageURL": "",
+                "dimensiones": "5M",
+                "peso": "2KG",
+                "material": "PVC",
+                "color": "BLANCO",
+                "paisOrigen": "MEXICO",
+                "activo": true
+            }
+        },
+        {
+            "codigo": "O-LLA-001",
+            "nombre": "LLAVE 15CM",
+            "descripcion": "string",
+            "precio_oferta": 130,
+            "puntos": 0.88,
+            "activo": true,
+            "producto": {
+                "codigo": "P-LLA-003",
+                "nombre": "LLAVE INGLESA",
+                "descripcion": "LLAVE AJUSTABLE",
+                "precio_compra": "80.00",
+                "precio_mayorista": "110.00",
+                "precio_minorista": "120.00",
+                "imageURL": "",
+                "dimensiones": "15CM",
+                "peso": "500G",
+                "material": "ACERO",
+                "color": "PLATA",
+                "paisOrigen": "ESPAÑA",
+                "activo": true
+            }
+        },
+        {
+            "codigo": "O-PIE-001",
+            "nombre": "PIEDRA 20CM",
+            "descripcion": "string",
+            "precio_oferta": 170,
+            "puntos": 1.32,
+            "activo": true,
+            "producto": {
+                "codigo": "P-PIE-004",
+                "nombre": "PIEDRA",
+                "descripcion": "PIEDRA DE GRANITO",
+                "precio_compra": "120.00",
+                "precio_mayorista": "150.00",
+                "precio_minorista": "160.00",
+                "imageURL": "",
+                "dimensiones": "20CM",
+                "peso": "2KG",
+                "material": "GRANITO",
+                "color": "GRIS",
+                "paisOrigen": "ITALIA",
+                "activo": true
+            }
+        },
+        {
             "codigo": "O-TAR-001",
             "nombre": "TARUGOS 8CM",
             "descripcion": "string",
@@ -267,6 +359,94 @@
         }
     ],
     "descuentos": [
+        {
+            "codigo": "D-CLA-001",
+            "nombre": "CLAVOS DESC",
+            "descripcion": "AAAAA",
+            "precio_min": 105,
+            "activo": true,
+            "producto": {
+                "codigo": "P-CLA-001",
+                "nombre": "CLAVOS",
+                "descripcion": "CLAVOS DE ACERO",
+                "precio_compra": "100.00",
+                "precio_mayorista": "130.00",
+                "precio_minorista": "140.00",
+                "imageURL": "",
+                "dimensiones": "10CM",
+                "peso": "1G",
+                "material": "ACERO",
+                "color": "METAL",
+                "paisOrigen": "ARGENTINA",
+                "activo": true
+            }
+        },
+        {
+            "codigo": "D-TUB-001",
+            "nombre": "TUBERIA DESC",
+            "descripcion": "BBBBB",
+            "precio_min": 65,
+            "activo": true,
+            "producto": {
+                "codigo": "P-TUB-002",
+                "nombre": "TUBERIA",
+                "descripcion": "TUBERIA DE PVC",
+                "precio_compra": "50.00",
+                "precio_mayorista": "70.00",
+                "precio_minorista": "80.00",
+                "imageURL": "",
+                "dimensiones": "5M",
+                "peso": "2KG",
+                "material": "PVC",
+                "color": "BLANCO",
+                "paisOrigen": "MEXICO",
+                "activo": true
+            }
+        },
+        {
+            "codigo": "D-LLA-001",
+            "nombre": "LLAVE DESC",
+            "descripcion": "CCCCC",
+            "precio_min": 100,
+            "activo": true,
+            "producto": {
+                "codigo": "P-LLA-003",
+                "nombre": "LLAVE INGLESA",
+                "descripcion": "LLAVE AJUSTABLE",
+                "precio_compra": "80.00",
+                "precio_mayorista": "110.00",
+                "precio_minorista": "120.00",
+                "imageURL": "",
+                "dimensiones": "15CM",
+                "peso": "500G",
+                "material": "ACERO",
+                "color": "PLATA",
+                "paisOrigen": "ESPAÑA",
+                "activo": true
+            }
+        },
+        {
+            "codigo": "D-PIE-001",
+            "nombre": "PIEDRA DESC",
+            "descripcion": "DDDDD",
+            "precio_min": 140,
+            "activo": true,
+            "producto": {
+                "codigo": "P-PIE-004",
+                "nombre": "PIEDRA",
+                "descripcion": "PIEDRA DE GRANITO",
+                "precio_compra": "120.00",
+                "precio_mayorista": "150.00",
+                "precio_minorista": "160.00",
+                "imageURL": "",
+                "dimensiones": "20CM",
+                "peso": "2KG",
+                "material": "GRANITO",
+                "color": "GRIS",
+                "paisOrigen": "ITALIA",
+                "activo": true
+            }
+        },
         {
             "codigo": "D-TAR-001",
             "nombre": "TARUGOS DESC",
